@@ -18,7 +18,6 @@ int main(){
         pre[0] = 1;
         for(int i = 1; i <= 62; i++){
             pre[i] = pre[i - 1] * 2;
-            // cout << pre[i] << endl;
         }
         ll num;
         for(int i = 1; i <= 62; i++){
