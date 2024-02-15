@@ -28,7 +28,6 @@ void solve(){
         return;
     }
     else{
-        // construct the possible answer
         ll bef[2], cnt = 1;
         vector<ll> ans[2];
         bef[0] = bef[1] = 0;
