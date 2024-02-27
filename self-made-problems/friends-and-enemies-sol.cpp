@@ -46,6 +46,7 @@ int main(){
     vector<bool> vis;
     vis.resize(n, false);
     vector<pii> ret;
+    int x = 0, y = 0;
     for(int i = 0; i < n; i++){
         if(i == root(i)){
             int sum[2];
@@ -66,13 +67,9 @@ int main(){
                     }
                 }
             }
-            ret.pb({max(sum[0], sum[1]), min(sum[0], sum[1])});
+            x += max(sum[0], sum[1]);
+            y += min(sum[0], sum[1]);
         }
-    }
-    int x = 0, y = 0;
-    for(int i = 0; i < int(ret.size()); i++){
-        x += ret[i].fi;
-        y += ret[i].se;
     }
     cout << x - y << endl;
 }
