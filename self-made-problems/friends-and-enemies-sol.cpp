@@ -60,7 +60,7 @@ int main(){
                     q.pop();
                     for(int j = 0; j < int(hate[i].size()); i++){
                         if(!vis[hate[i][j]){
-                            vis[hate[i][j]];
+                            vis[hate[i][j]] = true;
                             q.push((hate[i][j], 1 - s));
                         }
                     }
