@@ -72,7 +72,7 @@ int main(){
     int x = 0, y = 0;
     for(int i = 0; i < int(ret.size()); i++){
         x += ret[i].fi;
-        y += ret[i].fi;
+        y += ret[i].se;
     }
     cout << x - y << endl;
 }
