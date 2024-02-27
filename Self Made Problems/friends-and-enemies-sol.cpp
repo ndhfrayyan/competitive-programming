@@ -59,7 +59,7 @@ int main(){
                     int f = q.front().fi, s = q.front().se;
                     sum[s] += sz[f];
                     q.pop();
-                    for(int j = 0; j < int(hate[i].size()); i++){
+                    for(int j = 0; j < int(hate[i].size()); j++){
                         if(!vis[hate[i][j]){
                             vis[hate[i][j]] = true;
                             q.push((hate[i][j], 1 - s));
