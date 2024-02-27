@@ -1,7 +1,7 @@
-In a school in Toronto there exist N students. Each student are represented as number between 1 to N.
-You are a new teacher and you are given Q informations. In the information you are given the type of info, and two different students.
-There are two types of info, type 1 means that the two students given are friends. Meanwhile, type 2 means that the two students hate each other.
-Students in this school have high solidarity, hence they consider friends of their friend are also their friend.
-Consequently, when they friend hate someone they will also hate that person. Your first job as a new teacher is to divide this students into two groups.
-In this group there can't exist any two students that hate each other. You think that it's too easy if you just need to output whether it's possible or not.
-Therefore, you will output the maximum difference of number of students on the two groups. If it's not possible to make such groups output -1.
+In a school in Toronto, there are N students, each represented by a number between 1 and N. As a new teacher, you are given Q pieces of information. Each piece of information includes the type of relationship and two different students.
+
+There are two types of relationships: type 1 signifies that the two students mentioned are friends, while type 2 indicates that the two students hate each other. The students in this school exhibit high solidarity, considering friends of their friends as their own. Consequently, if a student hates someone, their friend will also hate that person.
+
+Your initial task as a new teacher is to divide these students into two groups. In these groups, no two students should harbor hatred towards each other. You believe it would be too easy if the output merely indicated whether it's possible or not.
+
+Instead, you will output the maximum difference in the number of students between the two groups that satisfies the requirements above. If it's not possible to form such groups without any mutual hatred, the output should be -1.
